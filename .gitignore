@@ -1,0 +1,36 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+uploads/*
+!uploads/.gitkeep
+generated/*
+!generated/.gitkeep
+data/models/*.joblib
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Private database
+*.db
+*.sqlite
+*.sqlite3
+
+# User files and generated outputs
+uploads/
+generated/
+data/models/
+
+# Mac
+.DS_Store
